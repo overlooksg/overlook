@@ -9,10 +9,14 @@
         "next": "^7.0.2",
         "react": "^16.6.3",
         "react-dom": "^16.6.3",
-        "redux-devtools-extension": "^2.13.7",
         "react-redux": "^6.0.0",
         "redux": "^4.0.1",
+        "redux-devtools-extension": "^2.13.7",
         "redux-thunk": "^2.3.0"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "tslint": "^5.11.0",
+        "typescript": "^3.2.2"
+    }
 }
