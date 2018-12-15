@@ -1,10 +1,13 @@
-import React from 'react'
 import Link from 'next/link'
+import React from 'react'
+// import { Provider } from 'react-redux';
 import Head from '../components/Head'
 import Nav from '../components/Nav'
+// import store from '../redux/store';
 
 const Home = () => (
   <div>
+    {/* <Provider store={store}> */}
     <Head title="Home" />
     <Nav />
 
@@ -85,6 +88,7 @@ const Home = () => (
         color: #333;
       }
     `}</style>
+    {/* </Provider> */}
   </div>
 )
 
