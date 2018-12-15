@@ -1,22 +1,25 @@
 {
-    "name": "create-next-example-app",
-    "scripts": {
-        "dev": "next",
-        "build": "next build",
-        "start": "next start"
-    },
-    "dependencies": {
-        "next": "^7.0.2",
-        "react": "^16.6.3",
-        "react-dom": "^16.6.3",
-        "react-redux": "^6.0.0",
-        "redux": "^4.0.1",
-        "redux-devtools-extension": "^2.13.7",
-        "redux-thunk": "^2.3.0"
-    },
-    "license": "MIT",
-    "devDependencies": {
-        "tslint": "^5.11.0",
-        "typescript": "^3.2.2"
-    }
+  "name": "create-next-example-app",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.7",
+    "redux-thunk": "^2.3.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/next": "^7.0.5",
+    "@types/react": "^16.7.17",
+    "@zeit/next-typescript": "^1.1.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.2"
+  }
 }
