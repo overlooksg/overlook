@@ -1,3 +1,11 @@
 {
-  "presets": ["next/babel", "@zeit/next-typescript/babel"]
+    "presets": ["next/babel", "@zeit/next-typescript/babel"]
+    // "jest": {
+    //     "transform": {}
+    // }
+    // "env": {
+    //     "test": {
+    //         "presets": [["env"], "react"]
+    //     }
+    // }
 }
