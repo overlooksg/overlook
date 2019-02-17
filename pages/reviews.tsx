@@ -1,10 +1,8 @@
 import Layout from '../components/Layout'
-export default () => (
-    <Layout title="about">
-        <div>
-            Overlook is a Glassdoor-like platform for software engineers in
-            Helsinki
-        </div>
+
+const Reviews = () => (
+    <Layout title="reviews">
+        <div>This is where we will implement Reviews feature</div>
 
         <style jsx>{`
             div {
@@ -14,3 +12,5 @@ export default () => (
         `}</style>
     </Layout>
 )
+
+export default Reviews

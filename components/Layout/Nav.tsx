@@ -11,17 +11,25 @@ const links = [
 const Nav = () => (
     <nav>
         <ul>
-            <li>
-                <Link prefetch href="/">
-                    <a>Home</a>
-                </Link>
-            </li>
-            <li>
-                <Link prefetch href="/about">
-                    <a>About</a>
-                </Link>
-            </li>
             <ul>
+                <li>
+                    <Link prefetch href="/">
+                        <a>Overlook</a>
+                    </Link>
+                </li>
+                <li>
+                    <Link prefetch href="/reviews">
+                        <a>Company Reviews</a>
+                    </Link>
+                </li>
+            </ul>
+
+            <ul>
+                <li key="about">
+                    <Link prefetch href="/about">
+                        <a>About</a>
+                    </Link>
+                </li>
                 {links.map(({ key, href, label }) => (
                     <li key={key}>
                         <Link href={href}>
@@ -53,9 +61,9 @@ const Nav = () => (
                 padding: 6px 8px;
             }
             a {
-                color: #067df7;
+                color: #4c4c4c;
                 text-decoration: none;
-                font-size: 13px;
+                font-size: 20px;
             }
         `}</style>
     </nav>
