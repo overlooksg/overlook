@@ -9,7 +9,7 @@ export default () => (
         <style jsx>{`
             div {
                 color: #4c4c4c;
-                padding: 20px;
+                padding: 100px 10px 10px 10px;
             }
         `}</style>
     </Layout>
